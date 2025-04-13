@@ -8,3 +8,4 @@ streamlit
 pyngrok
 pdfplumber
 google-generativeai
+os
