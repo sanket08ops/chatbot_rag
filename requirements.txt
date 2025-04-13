@@ -9,3 +9,4 @@ pyngrok
 pdfplumber
 google-generativeai
 os
+google.colab
