@@ -60,7 +60,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 import streamlit as st
 import os
-from Copy of Session_4_RAG_Backend import (
+from Session_4_RAG_Backend.ipynb import (
     setup_api_key,
     upload_pdf,
     parse_pdf,
