@@ -38,9 +38,9 @@ First, let's install the necessary libraries.
 #google-generativeai pdfplumber -q
 
 """Next, let's import all required libraries:"""
-streamlit
+# streamlit
 
-pyngrok
+# pyngrok
 
 import os
 import pdfplumber
