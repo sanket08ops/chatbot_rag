@@ -38,10 +38,9 @@ for package in packages:
 #google-generativeai pdfplumber -q
 
 """Next, let's import all required libraries:"""
-
 streamlit
 
- pyngrok
+pyngrok
 
 import os
 import pdfplumber
