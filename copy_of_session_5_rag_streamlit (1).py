@@ -23,7 +23,7 @@ First, let's install the necessary libraries.
 
 """Next, let's import all required libraries:"""
 
-!pip install streamlit
+pip install streamlit
 
 from google.colab import drive
 drive.mount('/content/drive')
