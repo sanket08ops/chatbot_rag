@@ -60,7 +60,6 @@ api_key = os.getenv("GOOGLE_API_KEY")
 
 import streamlit as st
 import os
-#import tempfile
 from session_4_rag_backend import (
     setup_api_key,
     upload_pdf,
@@ -70,7 +69,7 @@ from session_4_rag_backend import (
     embed_documents,
     store_embeddings,
     get_context_from_chunks,
-    query_with_full_context
+    query_with_full_contex
 )
 
 # Page configuration
