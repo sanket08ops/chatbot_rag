@@ -28,7 +28,7 @@ pip install streamlit
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install pyngrok
+pip install pyngrok
 
 import os
 import pdfplumber
