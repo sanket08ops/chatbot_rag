@@ -51,7 +51,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
-os.environ["GOOGLE_API_KEY"] = get("AIzaSyDdZ3_8PHVaaVy2eURdU7fFiqctEnPhOwQ")
+os.environ["GOOGLE_API_KEY"] = "AIzaSyDdZ3_8PHVaaVy2eURdU7fFiqctEnPhOwQ"
 api_key = os.getenv("GOOGLE_API_KEY")
 
 
