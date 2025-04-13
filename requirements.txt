@@ -7,3 +7,4 @@ sentence-transformers
 streamlit
 pyngrok
 pdfplumber
+google-generativeai
