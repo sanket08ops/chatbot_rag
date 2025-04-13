@@ -15,27 +15,27 @@ This notebook will guide you through implementing the backend components of a RA
 ##Setup and Prerequisites
 
 First, let's install the necessary libraries.
-"""
-import subprocess
-import sys
+# """
+# import subprocess
+# import sys
 
-packages = [
-    "langchain", 
-    "langchain-google-genai", 
-    "langchain_community", 
-    "pypdf", 
-    "chromadb", 
-    "sentence-transformers"
-]
+# packages = [
+#     "langchain", 
+#     "langchain-google-genai", 
+#     "langchain_community", 
+#     "pypdf", 
+#     "chromadb", 
+#     "sentence-transformers"
+# ]
 
-# Install each package
-for package in packages:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+# # Install each package
+# for package in packages:
+#     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 # Install required packages
 
-#langchain langchain-google-genai langchain_community pypdf chromadb sentence-transformers -q
-#google-generativeai pdfplumber -q
+langchain langchain-google-genai langchain_community pypdf chromadb sentence-transformers -q
+google-generativeai pdfplumber -q
 
 """Next, let's import all required libraries:"""
 streamlit
