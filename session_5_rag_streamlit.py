@@ -52,6 +52,11 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 os.environ["GOOGLE_API_KEY"] = get("AIzaSyDdZ3_8PHVaaVy2eURdU7fFiqctEnPhOwQ")
+api_key = os.getenv("GOOGLE_API_KEY")
+
+
+
+
 import streamlit as st
 import os
 import tempfile
