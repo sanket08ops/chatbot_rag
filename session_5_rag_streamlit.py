@@ -53,7 +53,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDdZ3_8PHVaaVy2eURdU7fFiqctEnPhOwQ"
+os.environ["GOOGLE_API_KEY"] = get("AIzaSyDdZ3_8PHVaaVy2eURdU7fFiqctEnPhOwQ")
 
 
 
